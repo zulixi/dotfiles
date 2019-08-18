@@ -1,0 +1,13 @@
+- defaults:
+        link:
+                create: true
+                relink: true
+                force: true
+-clean: ['~','~/.config']
+
+- link:
+        ~/.config/nvim/init.vim: nvim/init.vim
+        ~/.config/fish/config.fish: fish/config.fish
+        ~/.config/fish/fishfile: fish/fishfile
+        ~/.tmux.conf: tmux/tmux.conf
+
