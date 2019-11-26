@@ -3,7 +3,8 @@
                 create: true
                 relink: true
                 force: true
--clean: ['~','~/.config']
+
+- clean: ['~','~/.config']
 
 - link:
         ~/.config/nvim/init.vim: nvim/init.vim
