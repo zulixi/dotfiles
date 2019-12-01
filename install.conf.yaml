@@ -11,4 +11,4 @@
         ~/.config/fish/config.fish: fish/config.fish
         ~/.config/fish/fishfile: fish/fishfile
         ~/.tmux.conf: tmux/tmux.conf
-
+        ~/.vimrc: vim/.vimrc
